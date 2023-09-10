@@ -12,7 +12,7 @@ import {myStore} from './store/index.js'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.DEV ? '/' : '/vite-deploy/'}>
     <Provider store={myStore}>
       <App />
     </Provider>
