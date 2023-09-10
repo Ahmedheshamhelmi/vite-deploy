@@ -5,7 +5,7 @@ import ScrollToTop from '../../utilities/ScrollToTop'
 import './cart.css'
 import CartCard from '../../components/CartCard/CartCard'
 import { useSelector } from 'react-redux'
-import emptyCart from '../../../public/assets/images2/emptyCart.png'
+import emptyCart from './emptycart.png'
 
 export default function Cart() {
   const tax = 5
